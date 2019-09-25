@@ -483,6 +483,7 @@
      </module>
      <module type="READ" name="WaterRings" pos="0,0,0" publishUnderTab="WaterRings">
       <options>
+       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -587,6 +588,7 @@
      </module>
      <module type="READ" name="Waterrings2" pos="0,0,0" publishUnderTab="Waterrings2">
       <options>
+       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -691,6 +693,7 @@
      </module>
      <module type="READ" name="BG" pos="0,0,0" publishUnderTab="BGWater">
       <options>
+       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1219,6 +1222,7 @@
      </module>
      <module type="READ" name="Ball" pos="0,0,0" publishUnderTab="Ball">
       <options>
+       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
