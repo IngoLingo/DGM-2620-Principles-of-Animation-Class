@@ -224,12 +224,37 @@
     <dwg name="41"/>
     <dwg name="42"/>
     <dwg name="43"/>
+    <dwg name="44"/>
+    <dwg name="45"/>
+    <dwg name="46"/>
+    <dwg name="47"/>
    </drawings>
   </element>
   <element id="11" elementName="BG" elementFolder="BG" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
+   </drawings>
+  </element>
+  <element id="12" elementName="secondsplash" elementFolder="secondsplash" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
    </drawings>
   </element>
  </elements>
@@ -246,7 +271,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="09caf71c7d7036db" nbframes="60">
+  <scene name="Top" id="09caf71c7d7036db" nbframes="64">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-48" val="1" id="1"/>
@@ -393,19 +418,19 @@
      <elementSeq exposures="33" val="17" id="8"/>
      <elementSeq exposures="34" val="18" id="8"/>
      <elementSeq exposures="35" val="19" id="8"/>
-     <elementSeq exposures="36" val="20" id="8"/>
-     <elementSeq exposures="37" val="21" id="8"/>
-     <elementSeq exposures="38" val="22" id="8"/>
-     <elementSeq exposures="39" val="23" id="8"/>
-     <elementSeq exposures="40" val="24" id="8"/>
-     <elementSeq exposures="41" val="25" id="8"/>
-     <elementSeq exposures="42" val="26" id="8"/>
-     <elementSeq exposures="43" val="27" id="8"/>
-     <elementSeq exposures="44" val="28" id="8"/>
-     <elementSeq exposures="45" val="29" id="8"/>
-     <elementSeq exposures="46" val="30" id="8"/>
-     <elementSeq exposures="47" val="31" id="8"/>
-     <elementSeq exposures="48" val="32" id="8"/>
+     <elementSeq exposures="36" val="21" id="8"/>
+     <elementSeq exposures="37" val="22" id="8"/>
+     <elementSeq exposures="38" val="23" id="8"/>
+     <elementSeq exposures="39" val="24" id="8"/>
+     <elementSeq exposures="40" val="25" id="8"/>
+     <elementSeq exposures="41" val="26" id="8"/>
+     <elementSeq exposures="42" val="27" id="8"/>
+     <elementSeq exposures="43" val="28" id="8"/>
+     <elementSeq exposures="44" val="29" id="8"/>
+     <elementSeq exposures="45" val="30" id="8"/>
+     <elementSeq exposures="46" val="31" id="8"/>
+     <elementSeq exposures="47" val="32" id="8"/>
+     <elementSeq exposures="48" val="47" id="8"/>
      <elementSeq exposures="49" val="33" id="8"/>
      <elementSeq exposures="50" val="34" id="8"/>
      <elementSeq exposures="51" val="35" id="8"/>
@@ -415,11 +440,33 @@
      <elementSeq exposures="55" val="39" id="8"/>
      <elementSeq exposures="56" val="40" id="8"/>
      <elementSeq exposures="57" val="41" id="8"/>
-     <elementSeq exposures="58-59" val="42" id="8"/>
+     <elementSeq exposures="58" val="42" id="8"/>
+     <elementSeq exposures="59" val="46" id="8"/>
      <elementSeq exposures="60" val="43" id="8"/>
+     <elementSeq exposures="61" val="44" id="8"/>
+     <elementSeq exposures="62" val="45" id="8"/>
     </column>
-    <column type="0" name="BG" displayOrder="0" width="100" anonymous="true" id="11">
+    <column type="0" name="BG" display="false" displayOrder="0" width="100" anonymous="true" id="11">
      <elementSeq exposures="1-60" val="2" id="11"/>
+    </column>
+    <column type="0" name="ATV-09CE4083F5127FD9" displayOrder="0" width="100" anonymous="true" id="12">
+     <elementSeq exposures="26" val="17" id="12"/>
+     <elementSeq exposures="27" val="15" id="12"/>
+     <elementSeq exposures="28" val="14" id="12"/>
+     <elementSeq exposures="29" val="13" id="12"/>
+     <elementSeq exposures="30" val="12" id="12"/>
+     <elementSeq exposures="31" val="11" id="12"/>
+     <elementSeq exposures="32" val="10" id="12"/>
+     <elementSeq exposures="33" val="9" id="12"/>
+     <elementSeq exposures="34" val="8" id="12"/>
+     <elementSeq exposures="35" val="7" id="12"/>
+     <elementSeq exposures="36" val="6" id="12"/>
+     <elementSeq exposures="37" val="5" id="12"/>
+     <elementSeq exposures="38" val="4" id="12"/>
+     <elementSeq exposures="39" val="3" id="12"/>
+     <elementSeq exposures="40" val="2" id="12"/>
+     <elementSeq exposures="41" val="1" id="12"/>
+     <elementSeq exposures="42" val="16" id="12"/>
     </column>
    </columns>
    <options>
@@ -693,6 +740,7 @@
      </module>
      <module type="READ" name="BG" pos="0,0,0" publishUnderTab="BGWater">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1220,6 +1268,110 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="READ" name="secondsplash" pos="0,0,0" publishUnderTab="secondsplash">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-09CE4083F5127FD9">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
      <module type="READ" name="Ball" pos="0,0,0" publishUnderTab="Ball">
       <options>
        <locked val="true"/>
@@ -1440,8 +1592,9 @@
      <link out="Water3" in="Composite" inport="2"/>
      <link out="Water2" in="Composite" inport="1"/>
      <link out="Drawing" in="Composite" inport="0"/>
+     <link out="secondsplash" in="Composite" inport="8"/>
      <link out="Ball" in="Composite" inport="7"/>
-     <link out="FinalLines" in="Composite" inport="8"/>
+     <link out="FinalLines" in="Composite" inport="9"/>
     </linkedlist>
    </rootgroup>
   </scene>

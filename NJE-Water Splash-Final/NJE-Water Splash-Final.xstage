@@ -446,8 +446,8 @@
      <elementSeq exposures="61" val="44" id="8"/>
      <elementSeq exposures="62" val="45" id="8"/>
     </column>
-    <column type="0" name="BG" display="false" displayOrder="0" width="100" anonymous="true" id="11">
-     <elementSeq exposures="1-60" val="2" id="11"/>
+    <column type="0" name="BG" displayOrder="0" width="100" anonymous="true" id="11">
+     <elementSeq exposures="1-64" val="2" id="11"/>
     </column>
     <column type="0" name="ATV-09CE4083F5127FD9" displayOrder="0" width="100" anonymous="true" id="12">
      <elementSeq exposures="26" val="17" id="12"/>
@@ -740,7 +740,6 @@
      </module>
      <module type="READ" name="BG" pos="0,0,0" publishUnderTab="BGWater">
       <options>
-       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>

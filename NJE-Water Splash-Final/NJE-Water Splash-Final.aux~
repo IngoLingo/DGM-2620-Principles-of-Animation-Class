@@ -208,9 +208,32 @@
   <Drawing Key="" Name="41" Version="1"/>
   <Drawing Key="" Name="42" Version="1"/>
   <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
+  <Drawing Key="" Name="45" Version="1"/>
+  <Drawing Key="" Name="46" Version="1"/>
+  <Drawing Key="" Name="47" Version="1"/>
  </Element>
  <Element Name="BG" ID="11" Folder="BG">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
+ </Element>
+ <Element Name="secondsplash" ID="12" Folder="secondsplash">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
+  <Drawing Key="" Name="7" Version="1"/>
+  <Drawing Key="" Name="8" Version="1"/>
+  <Drawing Key="" Name="9" Version="1"/>
+  <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
+  <Drawing Key="" Name="14" Version="1"/>
+  <Drawing Key="" Name="15" Version="1"/>
+  <Drawing Key="" Name="16" Version="1"/>
+  <Drawing Key="" Name="17" Version="1"/>
  </Element>
 </SceneVersion>
